@@ -23,6 +23,7 @@ The goal was to transform it from a basic, synchronous script into a faster, con
 
 ## Features
 
+  * **Lightweight & Zero Dependencies**: The script uses only Python's standard libraries, meaning it requires no external packages. Just download and run.
   * **Concurrent Scanning**: Uses multithreading to scan multiple ports simultaneously, making it significantly faster than a simple loop.
   * **Command-Line Interface**: Implemented with `argparse` for easy use in a terminal or in scripts.
   * **Flexible Port Selection**: Scan a range of ports (e.g., `1-1024`) or specify individual ports (e.g., `22,80,443`).
